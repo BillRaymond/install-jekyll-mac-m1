@@ -12,7 +12,7 @@ Think of Homebrew as an app store for the command line. Everything you install f
 Note: be sure to replace `[username]` with the username you use on your Mac.
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[yourusername]/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)
 export SDKROOT=$(xcrun --show-sdk-path)
 ```
 
